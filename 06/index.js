@@ -14,7 +14,6 @@ throw new Error("Whoops!");
 // Here catch didn't receive anything and error didn't handle.
 
 
-
 // correct answer:
 
 // const result = new Promise(function (resolve, reject) {
