@@ -1,6 +1,7 @@
 // Ex.3
 // - write a function to validate a JSON with try catch.
 
+
 const isJson = (str) => {
   try {
     JSON.parse(str);
