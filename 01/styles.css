@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+.group {
+  display: table;
+  width: 100%;
+  font-size: 1rem;
+}
+.item {
+  display: table-cell;
+}
+.text {
+  white-space: nowrap;
+  width: 1%;
+  padding: 0 10px;
+}
+.line {
+  border-bottom: 1px solid grey;
+  position: relative;
+  top: -0.5rem;
+}

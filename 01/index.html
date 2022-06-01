@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  </head>
+  <body>
+    <!--Top part-->
+    <div class="container-fluid mt-auto">
+      <div class="row d-flex flex-column flex-lg-row">
+        <!--First column-->
+        <div class="col-lg-7">
+          <div class="pt-4">
+            <img
+              class="image-fluid"
+              src="./image/desktop.jpg"
+              alt="signInPic"/>
+          </div>
+        </div>
+        <!--Second column-->
+        <div class="col-lg-4">
+          <div class="pt-4">
+            <div
+              class="d-flex justify-content-center align-items-baseline justify-content-lg-start">
+              <div class="me-3 fs-4">Sign in with</div>
+              <a
+                class="btn btn-primary rounded-circle mx-1 fs-5"
+                href="#"
+                role="button"
+                ><span class="iconify" data-icon="ei:sc-facebook"></span></a>
+              <a
+                class="btn btn-primary rounded-circle mx-1 fs-5"
+                href="#"
+                role="button"
+                ><span class="iconify" data-icon="ei:sc-twitter"></span></a>
+              <a
+                class="btn btn-primary rounded-circle mx-1 fs-5"
+                href="#"
+                role="button"><span class="iconify" data-icon="typcn:social-linkedin"></span></a>
+            </div>
+            <div class="group mt-3">
+              <div class="item line"></div>
+              <div class="item text">Or</div>
+              <div class="item line"></div>
+            </div>
+            <div class="mb-3 rounded-0 mt-4">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Email address"/>
+            </div>
+            <div class="mb-3 rounded-0">
+              <input type="email" class="form-control" placeholder="Password" />
+            </div>
+            <div class="">
+              <div>
+                <input type="checkbox" id="check" />
+                <label for="password" id="remember">Remember me</label>
+                <a
+                  href="#"
+                  id="forgot"
+                  class="ms-5 text-black text-decoration-none">Forgot Password</a>
+              </div>
+              <div
+                class="d-flex justify-content-center justify-content-lg-start">
+                <input
+                  class="btn btn-primary px-4 py-2 mt-4 fw-semibold"
+                  type="submit"
+                  value="LOGIN"/>
+              </div>
+              <div
+                class="fw-bold mt-2 d-flex justify-content-center justify-content-lg-start">
+                Don't have an account?
+                <span class="text-danger ms-1">Register</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <div class="container-fluid mt-auto">
+      <div class="row bg-primary h-25 mt-5 text-white p-4">
+        <div class="col">
+          <p class="mt-1 fs-5">
+            Copyright<span class="iconify" data-icon="ph:copyright-bold"></span
+            >2020.All rights reserved.
+          </p>
+        </div>
+        <div class="col">
+          <div class="d-flex justify-content-end mt-2 fs-2 fw-bold">
+            <span class="iconify mx-1" data-icon="ei:sc-facebook"></span>
+            <span class="iconify mx-1" data-icon="ei:sc-twitter"></span>
+            <span class="iconify mx-1" data-icon="prime:google"></span>
+            <span class="iconify mx-1" data-icon="typcn:social-linkedin"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
