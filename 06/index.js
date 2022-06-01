@@ -8,7 +8,6 @@ throw new Error("Whoops!");
 }).catch(alert);
 
 
-
 // I think two syntaxes are mixed with each other. If we want catch the error 
 // by new promise ((throw)) should be replaced with ((reject)), if we want to 
 // catch error with ((throw and catch)) we need ((try)).
